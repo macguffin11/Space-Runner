@@ -28,6 +28,7 @@ address pNew;
 temp A[10],tBox[5],chara,ladder;
 
 int main() {
+	
     int lv=1;
 	window();
 	load_matriksmap();
