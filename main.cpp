@@ -11,7 +11,6 @@
 
 address matriksmaps;
 
-
 int i,j;
 int stat = -1,page = 0;
 int point = 0, box = 0, k = 0, l = 0,a,b;
