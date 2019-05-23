@@ -18,4 +18,6 @@ void load_matriksmap();
 
 void menu();
 
+void sound();
+
 #endif

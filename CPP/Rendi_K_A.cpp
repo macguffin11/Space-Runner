@@ -146,7 +146,7 @@ void load_matriksmap()
 void menu()
 {
 	bool kembali;
-	printf("menu");
+	sound();
 	int x=0, y=0;
     int maxx = getmaxx()/2, maxy = getmaxy()/2;
     clearviewport();
@@ -267,6 +267,10 @@ void menu()
         	closegraph();
         	exit (0);
         }
-
     }
+}
+
+void sound(){
+    mciSendString("open \"sound.mp3\" type mpegvideo alias mp3",NULL,0,NULL);
+    mciSendString("play mp3",NULL,0,NULL);
 }
